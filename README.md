@@ -8,15 +8,63 @@ n8n docker deploy
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Avvio:
 ```bash
 cp .env.template .env
 # Modifica .env con valori reali
 N8N_HOST=automation.example.com è il dns di accesso.
-[Credentials]=CAMBIA_QUESTA_CHIAVE_MOLTO_LUNGA_E_UNICA
+N8N_CHIAVE=CAMBIA_QUESTA_CHIAVE_MOLTO_LUNGA_E_UNICA
 POSTGRES_PASSWORD=[Credentials]
 docker compose up -d
 ```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -34,10 +82,82 @@ Accesso: https://automation.example.com
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Logs:
 ```bash
 docker compose logs -f n8n
 ```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
